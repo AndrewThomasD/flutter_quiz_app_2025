@@ -20,7 +20,7 @@ class StartScreen extends StatelessWidget {
           height: 50,
         ),
         const Text(
-          'Learn Flutter the fun way!',
+          'Test yourself with this Harry Potter Quizz',
           style: TextStyle(
             color: Colors.white,
             fontSize: 20,
