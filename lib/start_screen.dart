@@ -29,7 +29,11 @@ class StartScreen extends StatelessWidget {
         const SizedBox(
           height: 50,
         ),
-        OutlinedButtonExample('Start Quiz',startQuiz, const Icon(Icons.arrow_right_alt)),
+        OutlinedButtonExample(
+         'Start with the quizz little wizard',
+         startQuiz,
+         const Icon(Icons.arrow_right_alt, color: Colors.white),
+       ),
       ],
     );
   }
