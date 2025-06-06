@@ -31,6 +31,10 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
       width: double.infinity,
       child: Container(
         margin: const EdgeInsets.all(40),
+        decoration: BoxDecoration(
+    color: Colors.indigo, // 
+    borderRadius: BorderRadius.circular(12), 
+  ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
