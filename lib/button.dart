@@ -15,10 +15,20 @@ class _OutlinedButtonExampleState extends State<OutlinedButtonExample> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle style = OutlinedButton.styleFrom(
-        textStyle: const TextStyle(fontSize: 17),
-        shape: const BeveledRectangleBorder(),
-        side: const BorderSide(width: 0.1, color: Color.fromARGB(255, 197, 197, 197)),
-        foregroundColor: Colors.white);
+        textStyle: const TextStyle(
+          fontSize: 16,
+    letterSpacing: 1.2,
+    fontWeight: FontWeight.bold,
+  ),
+    shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(12),
+  ),
+    side: const BorderSide(
+    width: 1.5,
+    color: Color(0xFF9575CD),
+  ), 
+    foregroundColor: Colors.white,
+);
 
     return Center(
       child: Column(
