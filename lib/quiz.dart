@@ -66,9 +66,18 @@ class _QuizState extends State<Quiz> {
 
     return MaterialApp(
       home: Scaffold(
-        body: screenWidget,
-        backgroundColor: const Color.fromARGB(255, 93, 4, 134),
-      ),
+      backgroundColor: const Color.fromARGB(255, 93, 4, 134),
+      body: AnimatedSwitcher(
+       duration: const Duration(milliseconds: 600),
+       transitionBuilder: (Widget child, Animation<double> animation) {
+       return FadeTransition(
+       opacity: animation,
+       child: child,
+    );
+   },
+       child: screenWidget,
+   ),
+     ),
     );
   }
 }
