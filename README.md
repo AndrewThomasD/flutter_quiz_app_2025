@@ -1,6 +1,7 @@
 # flutter_quiz_1
 
 A new Flutter project.
+( This project is an adaptation of the version made by Rafael Alberto Perez San Lazaro : The main change is the theme of the quizz to Harry Potter)
 
 ## Getting Started
 
