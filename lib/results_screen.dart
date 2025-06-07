@@ -40,6 +40,13 @@ class ResultsScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Icon(
+               Icons.emoji_events_rounded,
+               size: 80,
+               color: Colors.amber,
+                ),
+              const SizedBox(height: 20),
+
             Text(
               'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
               style: GoogleFonts.lato(
